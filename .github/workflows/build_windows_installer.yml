@@ -36,7 +36,7 @@ jobs:
       id: write_file
       uses: timheuer/base64-to-file@v1.2
       with:
-        fileName: 'OctoPrintCA.crt'
+        fileName: "OctoPrintCA.crt"
         encodedString: ${{ secrets.OCTOPRINT_CA }}
         
     - name: 💉 Import CA
